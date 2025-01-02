@@ -1,0 +1,21 @@
+# Ativa a reescrita de URLs
+RewriteEngine On
+
+# Define a pasta pública como base
+RewriteBase /
+
+# Redireciona todas as requisições para o index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+
+# Bloqueia o acesso direto às pastas sensíveis
+<Directory ../app>
+    Order Deny,Allow
+    Deny from all
+</Directory>
+
+<Directory ../config>
+    Order Deny,Allow
+    Deny from all
+</Directory>
