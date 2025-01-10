@@ -41,30 +41,44 @@ A documentação completa do sistema será disponibilizada em breve.
 ## :heavy_exclamation_mark: Requirements
 * [PHP 8.0+](https://www.php.net/)
 * [MySQL 8.0+](https://dev.mysql.com/downloads/)
-* [Apache](https://httpd.apache.org/download.cgi) 
+* [Apache](https://httpd.apache.org/download.cgi)
+* [PDO DRIVER](https://www.php.net/manual/en/ref.pdo-mysql.php) - PDO habilitado no arquivo php.ini
+* [cURL](https://www.php.net/manual/pt_BR/book.curl.php) - Função curl habilitada no arquivo php.ini
+
 
 ## Installation and usage
-```bash
-# Clone o repositório
-$ git clone https://github.com/TabsMacedo/projeto-kidopi.git
 
-# Configure o banco de dados
-# Crie a tabela utilizando o seguinte script:
+Clone o repositório
+```bash
+git clone https://github.com/TabsMacedo/projeto-kidopi.git
+```
+### Configure o banco de dados
+Crie a tabela utilizando o seguinte script:
+```sql
+CREATE DATABASE covid19;
+USE DATABASE covid19;
 
 CREATE TABLE acessos (
   id INT AUTO_INCREMENT PRIMARY KEY,
   pais VARCHAR(50) NOT NULL,
   data_hora DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+```
+Para instalar as dependências use:
+```bash
+composer update
+```
 
-# Configure o arquivo .env para conectar ao banco de dados
+Configure o arquivo .env para conectar ao banco de dados
+```bash
 DB_HOST=localhost
-DB_NAME=acessos_db
+DB_NAME=covid19
 DB_USER=root
 DB_PASS=senha
-
-# Inicie o servidor local
-$ php -S localhost:8000
+```
+Inicie o servidor local
+```bash
+php -S localhost:8000
 ```
 
 ## Tests
