@@ -1,6 +1,6 @@
 # Sistema de Acessos
 
-![Logo](https://via.placeholder.com/150x150)
+![Logo](/public/img/kidopi.png)
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-blue)](https://www.php.net/) [![MySQL Version](https://img.shields.io/badge/MySQL-8.0-orange)](https://dev.mysql.com/downloads/)
 
@@ -23,7 +23,7 @@
 Este projeto é um sistema simples para registrar acessos, armazenando o país de origem e o horário do acesso. O sistema foi desenvolvido utilizando PHP e MySQL.
 
 ## :rice_scene: Screenshot
-![Screenshot](https://via.placeholder.com/750x500)
+![Screenshot](public/img/telaInicio.png)
 
 ## :dvd: Demo
 Ainda não há uma versão online disponível para demonstração.
@@ -34,12 +34,12 @@ A documentação completa do sistema será disponibilizada em breve.
 ## :heavy_exclamation_mark: Requirements
 * [PHP 8.0+](https://www.php.net/)
 * [MySQL 8.0+](https://dev.mysql.com/downloads/)
-* [Apache](https://httpd.apache.org/download.cgi) ou [Nginx](https://nginx.org/en/download.html)
+* [Apache](https://httpd.apache.org/download.cgi) 
 
 ## Installation and usage
 ```bash
 # Clone o repositório
-$ git clone https://github.com/<user>/<project>.git
+$ git clone https://github.com/TabsMacedo/projeto-kidopi.git
 
 # Configure o banco de dados
 # Crie a tabela utilizando o seguinte script:
@@ -84,7 +84,7 @@ Ainda não há testes automatizados disponíveis para este projeto.
 ## :bell: Tasks
 - [x] Criar estrutura inicial do projeto
 - [x] Configurar banco de dados
-- [ ] Implementar interface de administração
+- [x] Implementar interface de administração
 - [ ] Adicionar testes automatizados
 
 ## :smiley_cat: Authors
