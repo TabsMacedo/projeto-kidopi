@@ -165,7 +165,7 @@ body {
 .results {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   max-width: 100%;
   overflow-x: hidden;
   padding: 48px;
@@ -179,6 +179,15 @@ body {
 }
 
 .results__loading p {
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, var(--accent-color-green), var(--accent-color-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2; 
+}
+.results__error p{
   font-size: 1.5rem;
   background: linear-gradient(135deg, var(--accent-color-green), var(--accent-color-blue));
   -webkit-background-clip: text;
