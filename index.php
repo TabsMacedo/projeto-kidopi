@@ -1,6 +1,16 @@
 <?php
+
+require_once './vendor/autoload.php';
 require_once './app/controllers/HomeController.php';
 require_once './app/controllers/CovidController.php';
+require_once './app/config/database.php';
+require_once './app/models/CovidModel.php';
+
+
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
 $requestUri = $_SERVER['REQUEST_URI'];
 

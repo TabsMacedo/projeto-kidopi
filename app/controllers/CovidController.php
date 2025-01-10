@@ -1,7 +1,13 @@
 <?php
 class CovidController
 {
-    private $lastAccessFile = './last_access.json';
+    private $covidModel;
+
+    public function __construct()
+    {
+        global $conn;
+        $this->covidModel = new CovidModel($conn);
+    }
 
     public function getCovidData($country)
     {
@@ -39,17 +45,19 @@ class CovidController
 
     public function saveLastAccess($country)
     {
+        date_default_timezone_set("America/Sao_Paulo");
         $lastAccess = [
             'pais' => $country,
             'data_hora' => date('Y-m-d H:i:s')
         ];
-        file_put_contents($this->lastAccessFile, json_encode($lastAccess));
+        $this->covidModel->saveAccess($lastAccess);
     }
 
     public function getLastAccess()
     {
-        if (file_exists($this->lastAccessFile)) {
-            $lastAccess = json_decode(file_get_contents($this->lastAccessFile), true);
+        $lastAccess = $this->covidModel->getLastAccess();
+
+        if ($lastAccess) {
             echo json_encode($lastAccess);
         } else {
             echo json_encode(['error' => 'Nenhum acesso registrado ainda.']);
