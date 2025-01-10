@@ -1,4 +1,4 @@
-# Sistema de Acessos
+# Painel Informativo sobre o Coronavírus
 
 ![Logo](https://www.skyhub.bio/wp-content/uploads/2021/09/kidopi.png)
 =======
@@ -24,7 +24,7 @@
 Este projeto é um sistema simples para registrar acessos, armazenando o país de origem e o horário do acesso. O sistema foi desenvolvido utilizando PHP e MySQL.
 
 ## :rice_scene: Screenshot
-![Screenshot](public/img/telaInicio.png)
+![Screenshot](./assets/telaInicio.png)
 
 ## :dvd: Demo
 Ainda não há uma versão online disponível para demonstração.
