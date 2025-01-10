@@ -72,6 +72,8 @@ Ainda não há testes automatizados disponíveis para este projeto.
 
 ## Dependencies and libs
 - [PHP dotenv](https://github.com/vlucas/phpdotenv) para gerenciamento de variáveis de ambiente
+- [PDO](https://www.php.net/manual/pt_BR/book.pdo.php) para conexão e manipulação segura de banco de dados MySQL
+
 
 ## Folder Structure
 ```
