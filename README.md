@@ -78,12 +78,19 @@ Ainda não há testes automatizados disponíveis para este projeto.
 ## Folder Structure
 ```
 .
-├── src            # Código-fonte do sistema
-├── public         # Arquivos públicos (index.php)
-├── .env           # Configurações do banco de dados
-├── .gitignore     
-├── LICENSE        
-└── README.md      # Documentação do projeto
+├── app/            # Código-fonte do sistema
+│   ├── controllers # Controladores do sistema
+│   ├── models      # Modelo para interagir com o banco de dados
+│   ├── views       # Arquivos de visualização (HTML, PHP)
+├── public/         # Arquivos públicos (index.php)
+│   ├── css         # Arquivos CSS
+│   ├── js          # Arquivos JS
+│   └── img         # Imagens
+├── .env            # Configurações do banco de dados
+├── .gitignore      # Arquivos a serem ignorados pelo Git
+├── LICENSE         # Licença do projeto
+└── README.md       # Documentação do projeto
+
 ```
 
 ## Release History
@@ -100,4 +107,4 @@ Ainda não há testes automatizados disponíveis para este projeto.
 - [Tábata Macedo](https://github.com/tabsmacedo)
 
 ## :memo: License
-The [MIT License](LICENSE) (MIT)
+Este projeto está licenciado sob a [MIT License](./LICENSE). Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
