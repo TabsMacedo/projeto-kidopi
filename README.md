@@ -30,7 +30,7 @@ O Painel Informativo sobre o Coronavírus é um sistema desenvolvido para regist
 Este painel foi feito para ser simples e eficiente, com a intenção de fornecer um ponto inicial para a análise de dados sobre o coronavírus.
 
 ## :rice_scene: Screenshot
-![Screenshot](https://github.com/user-attachments/assets/f773c85c-463e-4328-92d8-0832931d98d4)
+[screen-capture (1).webm](https://github.com/user-attachments/assets/75b9424d-af0b-40c5-8c45-ff18ab69bf04)
 
 ## :dvd: Demo
 Ainda não há uma versão online disponível para demonstração.
@@ -97,7 +97,7 @@ Ainda não há testes automatizados disponíveis para este projeto.
 - [ ] Adicionar testes automatizados
 
 ## :smiley_cat: Authors
-- [Tábata Macedo](https://github.com/tabatamacedo)
+- [Tábata Macedo](https://github.com/tabsmacedo)
 
 ## :memo: License
 The [MIT License](LICENSE) (MIT)
