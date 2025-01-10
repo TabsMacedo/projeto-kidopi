@@ -1,7 +1,6 @@
 # Painel Informativo sobre o Coronavírus
 
 ![Logo](https://www.skyhub.bio/wp-content/uploads/2021/09/kidopi.png)
-=======
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-blue)](https://www.php.net/) [![MySQL Version](https://img.shields.io/badge/MySQL-8.0-orange)](https://dev.mysql.com/downloads/)
 
@@ -31,7 +30,7 @@ O Painel Informativo sobre o Coronavírus é um sistema desenvolvido para regist
 Este painel foi feito para ser simples e eficiente, com a intenção de fornecer um ponto inicial para a análise de dados sobre o coronavírus.
 
 ## :rice_scene: Screenshot
-![Screenshot](./assets/telaInicio.png)
+![Screenshot](https://github.com/user-attachments/assets/f773c85c-463e-4328-92d8-0832931d98d4)
 
 ## :dvd: Demo
 Ainda não há uma versão online disponível para demonstração.
