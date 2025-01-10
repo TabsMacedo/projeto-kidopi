@@ -21,7 +21,14 @@
 * [License](#memo-license)
 
 ## :scroll: Overview
-Este projeto é um sistema simples para registrar acessos, armazenando o país de origem e o horário do acesso. O sistema foi desenvolvido utilizando PHP e MySQL.
+O Painel Informativo sobre o Coronavírus é um sistema desenvolvido para registrar os acessos de usuários ao painel informativo, capturando o país de origem e o horário do acesso. Ele foi criado com o objetivo de fornecer informações detalhadas sobre o impacto do coronavírus em diferentes locais, permitindo que as organizações possam analisar dados de acesso e, possivelmente, integrar com outros sistemas.
+
+## Funcionalidades principais:
+ - Registro de acessos, com a captura do país de origem e data/hora.
+ - Armazenamento seguro de dados utilizando um banco de dados MySQL.
+ - Desenvolvido com PHP e MySQL, usando a arquitetura básica cliente-servidor.
+
+Este painel foi feito para ser simples e eficiente, com a intenção de fornecer um ponto inicial para a análise de dados sobre o coronavírus.
 
 ## :rice_scene: Screenshot
 ![Screenshot](./assets/telaInicio.png)
