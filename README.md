@@ -1,6 +1,6 @@
 # Sistema de Acessos
 
-![Logo](/public/img/kidopi.png)
+![Logo](https://www.skyhub.bio/wp-content/uploads/2021/09/kidopi.png)
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-blue)](https://www.php.net/) [![MySQL Version](https://img.shields.io/badge/MySQL-8.0-orange)](https://dev.mysql.com/downloads/)
 
